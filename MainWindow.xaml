@@ -1,0 +1,21 @@
+﻿<Window x:Class="GPA_calc__special_for_Dnevnik.ru_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GPA_calc__special_for_Dnevnik.ru_"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Title="GPA calc" Height="220" Width="300">
+
+    <Grid Background="#FF4A2E98">
+        <TextBox x:Name="MarkInputBox" HorizontalAlignment="Center" Margin="0,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="257" TextAlignment="Center" Height="21" Foreground="#FFB4B4B4" Background="#FF5F3CC0"/>
+        <TextBlock x:Name="LabelAverageOutput" HorizontalAlignment="Center" Margin="0,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextAlignment="Center" Height="18" Foreground="#FFB4B4B4"/>
+        <Button x:Name="CalculateButton" Content="Рассчитать" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,66,0,0" Click="CalculateButton_Click" Foreground="#FFB4B4B4" Background="#FF5F3CC0"/>
+        <Label Content="Вставьте оценки из Дневник.ру в поле ниже:" HorizontalAlignment="Center" Margin="0,9,0,0" VerticalAlignment="Top" Foreground="#FFB4B4B4"/>
+        <Label Content="Ваш средний балл:" HorizontalAlignment="Center" Margin="0,86,0,0" VerticalAlignment="Top" Foreground="#FFB4B4B4"/>
+        <Label Content="Округленный в пользу студента:" HorizontalAlignment="Center" Margin="0,130,0,0" VerticalAlignment="Top" Foreground="#FFB4B4B4"/>
+        <TextBlock x:Name="LabelAverageRoundedOutput" HorizontalAlignment="Center" Margin="0,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextAlignment="Center" Height="18" Foreground="#FFB4B4B4"/>
+
+    </Grid>
+</Window>
